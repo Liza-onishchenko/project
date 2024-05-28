@@ -1,0 +1,330 @@
+h1,h2,h3,h4,h5,h6,p{
+   margin-top: auto; 
+   margin-bottom: auto;
+}
+
+ul,ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+img {
+    display: block;
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+    color: #fcf9f9;
+    background-color:#1c2225;
+}
+
+.section-paddings{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+p {
+    font-weight: 400;
+    color: rgba(252, 249, 249, 0.4);
+}
+
+.main{
+    flex-grow: 1;
+}
+
+.container { 
+    min-width: 320px;
+    max-width: 375px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .container{
+        max-width: 768px;
+        padding: 0 32px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container{
+        max-width: 1280px;
+        padding: 0 50px;
+    }
+}
+
+/*========about-us=========*/
+  .about-us-section {
+    padding-top: 80px;
+    padding-bottom: 62px;
+  }
+  
+  
+
+  /* .about-us-div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 50px;
+  } */
+  
+  .about-us-div-text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  
+  .about-us-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.375;
+    letter-spacing: -0.03em;
+    color: #fcf9f9;
+    margin-bottom: 40px;
+  }
+  
+  .about-us-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .about-us-item {
+    max-width: 335px;
+    
+  }
+  
+  .about-us-text {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.04em;
+    color: rgba(252, 249, 249, 0.4);
+  }
+  
+  .about-us-thumb {
+    position: relative;
+    overflow: hidden;
+    height: 499px;
+  }
+    .png-fon {
+        background-position: bottom -62px  right -200px;
+        background-size: 459px 408px;
+        background-image: url(../images/us/ornament-bg-yellow.png);
+        background-repeat: no-repeat ;
+        margin: 0 auto;
+        max-width: fit-content;
+
+  }
+  
+  
+  @media screen and (min-width: 768px) {
+    .container {
+      max-width: 768px;
+      padding: 0 32px;
+    }
+  
+    .about-us-section {
+      padding: 50px 0;
+    }
+  
+    .about-us-div {
+      gap: 40px;
+    }
+  
+    .about-us-title {
+      font-size: 44px;
+      line-height: 1.45455;
+    }
+  
+    .about-us-item {
+      max-width: 704px;
+    }
+  
+    .about-us-text {
+      font-size: 16px;
+    }
+
+    .about-us-thumb {
+        height: 545px;
+    }
+
+    .png-fon {
+        background-position: bottom -62px  right -200px;
+        background-size: 545px 484px;
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .container {
+      max-width: 1280px;
+      padding: 0 50px;
+    }
+  
+    .about-us-section {
+      padding: 80px 0;
+    }
+  
+    .about-us-title {
+      font-size: 44px;
+      line-height: 1.45455;
+    }
+  
+    .about-us-div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      gap: 50px;
+    }
+  
+    .about-us-item {
+      max-width: 536px;
+    }
+  
+    .about-us-text {
+      font-size: 16px;
+    }
+
+    .png-fon {
+        background-position: bottom -62px  right -200px;
+        background-size: 545px 484px ;
+     }
+  }
+}
+
+/* /* ========================================================================================================================================================
+                      <!-- ========Our collection======== -->
+======================================================================================================================================================== */
+ .collection {
+    padding-top: 18px;
+    padding-bottom: 80px; 
+  }
+  
+  .collection-fon {
+    background-position-y: 11% ;
+    background-size: 177px 199px ;
+    background-repeat: no-repeat ;
+    max-width: fit-content;
+    margin: 0 auto;
+    background-image: url(/img/background/ornament-bg-yellow.png);
+  }
+  
+  @media screen and (min-resolution: 192dpi) {
+    .collection-fon{
+        background-image: url(/img/background/ornament-bg-yellow@2x.png)
+    }
+  }
+  
+  .section-title-collection {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.37;
+    letter-spacing: -0.03em;
+    color: #FCF9F9;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .collection-menu {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: center;
+  }
+  
+  
+  .collection-item {
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .collection-list-item-title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    white-space: nowrap;
+  }
+  
+  .text-collection {
+    padding-top: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .collection-list-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.05em;
+    color: rgba(252, 249, 249, 0.4);
+  }
+  
+  @media screen and (min-width: 768px) {
+    .collection {
+      padding-top: 50px;
+      padding-bottom: 100px;
+    }
+    .collection-menu {
+        gap: 20px 20px;
+        flex-direction: row;
+    }
+  
+    .collection-list {
+        width: calc((100% - 20px) / 2);
+    }
+  
+    .collection-fon {
+        background-position-y: 16%;
+        background-size: 300px 338px ;
+  
+    }
+  
+    .collection-list-item-title{
+        font-size: 18px;
+        width: 342px;
+        overflow: hidden;
+        
+    }
+  
+    .collection-list-text {
+        font-size: 18px;
+    }
+  
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .collection {
+        padding-top: 150px;
+        padding-bottom: 150px; 
+    }
+  
+    .collection-fon {
+        background-position-y: 28%;
+    }
+  
+    .collection-menu {
+        gap: 40px 20px;
+    }
+  
+    .collection-list {
+        width: calc((100% - 48px) / 3);
+        
+    }
+  
+    .collection-list-item-title {
+        width: 380px;
+    }
+  
+  } 
